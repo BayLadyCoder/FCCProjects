@@ -17,11 +17,23 @@
     <form action="" id="survey-form">
         <label for="name" id="name-label">Name</label>
         <input type="text" name="name" id="name" placeholder="Name">
+
         <label for="email" id="email-label">Email</label>
         <input type="email" name="email" id="email" placeholder="Email">
+
         <label for="age" id="number-label">Age</label>
         <input type="number" name="age" style="width: 50px" min="1" max="99" id="number" placeholder="Age">
 
+        <label for="gender">Gender</label>
+        <select name="gender" id="dropdown">
+            <option value="male">Male</option>
+            <option value="female">Femal</option>
+        </select><br>
+
+        <input type="radio" name="Developer" value="Frontend" checked> Frontend Developer<br>
+        <input type="radio" name="Developer" value="backend"> Backend Developer<br>
+        <input type="radio" name="Developer" value="fullstack"> Fullstack Developer<br>
+        <input type="radio" name="Developer" value="other"> Other<br>
     </form>
 </body>
 
